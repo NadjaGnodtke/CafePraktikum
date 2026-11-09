@@ -1,5 +1,7 @@
 package business;
 
+//Hallo
+
 public class Cafe {
 	
     private String name;
