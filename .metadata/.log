@@ -1,0 +1,13 @@
+!SESSION 2026-11-09 13:04:02.022 -----------------------------------------------
+eclipse.buildId=4.41.0.20260903-0719
+java.version=25.0.4.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=de_DE
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/nadja/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.eclipse.epp.package.java.product -keyring /Users/nadja/.eclipse_keyring -data /Users/nadja/Documents/Cafe_richtiges_praktikum
+
+!ENTRY ch.qos.logback.classic 1 0 2026-11-09 13:04:04.899
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2026-11-09 13:04:05.771
+!MESSAGE Logback config file: /Users/nadja/Documents/Cafe_richtiges_praktikum/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.201.20260831-2044.xml
