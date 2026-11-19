@@ -3,6 +3,7 @@ package gui;
 import java.io.IOException;
 
 import business.Cafe;
+import business.CafeModel;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.scene.Scene;
@@ -45,10 +46,12 @@ public class CafeControl {
 	    public void leseAusDatei(String typ) {
 	        try {
 	            if ("csv".equals(typ)) {
-	                cafeModel.leseAusDatei(typ);
+	                cafeModel.leseAusCsvDatei(typ);
 	                cafeView.zeigeInformationsfensterAn("Das Cafe wurde gelesen!");
+	                
 	            } else {
-	                cafeView.zeigeInformationsfensterAn("Noch nicht implementiert!");
+	            	cafeModel.leseAusTxtDatei(typ);
+	                cafeView.zeigeInformationsfensterAn("Das Cafe wurde gelesen!");
 	            }
 	        } catch (IOException exc) {
 	            cafeView.zeigeFehlermeldungsfensterAn("IOException beim Lesen!");

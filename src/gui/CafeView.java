@@ -7,6 +7,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 
 import business.Cafe;
+import business.CafeModel;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.scene.Scene;
